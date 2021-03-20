@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\_NetCore\\Treinamento.Net\\Treinamento.Net.csproj": {}
+  },
+  "projects": {
+    "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj",
+        "projectName": "Treinamento.Net.Dominio",
+        "projectPath": "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj",
+        "packagesPath": "C:\\Users\\eliu\\.nuget\\packages\\",
+        "outputPath": "D:\\_NetCore\\Treinamento.Net.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_NetCore\\Treinamento.Net.Negocio\\Treinamento.Net.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_NetCore\\Treinamento.Net.Negocio\\Treinamento.Net.Negocio.csproj",
+        "projectName": "Treinamento.Net.Negocio",
+        "projectPath": "D:\\_NetCore\\Treinamento.Net.Negocio\\Treinamento.Net.Negocio.csproj",
+        "packagesPath": "C:\\Users\\eliu\\.nuget\\packages\\",
+        "outputPath": "D:\\_NetCore\\Treinamento.Net.Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj": {
+                "projectPath": "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_NetCore\\Treinamento.Net\\Treinamento.Net.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_NetCore\\Treinamento.Net\\Treinamento.Net.csproj",
+        "projectName": "Treinamento.Net",
+        "projectPath": "D:\\_NetCore\\Treinamento.Net\\Treinamento.Net.csproj",
+        "packagesPath": "C:\\Users\\eliu\\.nuget\\packages\\",
+        "outputPath": "D:\\_NetCore\\Treinamento.Net\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eliu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj": {
+                "projectPath": "D:\\_NetCore\\Treinamento.Net.Dominio\\Treinamento.Net.Dominio.csproj"
+              },
+              "D:\\_NetCore\\Treinamento.Net.Negocio\\Treinamento.Net.Negocio.csproj": {
+                "projectPath": "D:\\_NetCore\\Treinamento.Net.Negocio\\Treinamento.Net.Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+D:\_NetCore\Treinamento.Net.Dominio\bin\Debug\netcoreapp3.1\Treinamento.Net.Dominio.deps.json
+D:\_NetCore\Treinamento.Net.Dominio\bin\Debug\netcoreapp3.1\Treinamento.Net.Dominio.dll
+D:\_NetCore\Treinamento.Net.Dominio\bin\Debug\netcoreapp3.1\Treinamento.Net.Dominio.pdb
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.csprojAssemblyReference.cache
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.AssemblyInfoInputs.cache
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.AssemblyInfo.cs
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.csproj.CoreCompileInputs.cache
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.dll
+D:\_NetCore\Treinamento.Net.Dominio\obj\Debug\netcoreapp3.1\Treinamento.Net.Dominio.pdb
