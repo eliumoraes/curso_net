@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using Treinamento.Net.Dominio.Entidades;
 
 namespace Treinamento.Net.Dominio.Interfaces.Repositorio
 {
-    interface IClienteRepositorio
+    public interface IClienteRepositorio
     {
+        ClienteResponse Consultar(int codigoDoCliente);
+        List<ClienteResponse> Listar();
     }
 }

@@ -8,7 +8,7 @@ using Treinamento.Net.Dominio.Interfaces.Negocio;
 namespace Treinamento.Net.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -47,7 +47,7 @@ namespace Treinamento.Net.Controllers
             .ToList());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}/Consultar")]
         public object ObterId(int id)
         {            
             return new

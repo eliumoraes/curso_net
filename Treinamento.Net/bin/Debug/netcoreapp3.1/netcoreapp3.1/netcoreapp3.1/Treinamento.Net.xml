@@ -4,5 +4,31 @@
         <name>Treinamento.Net</name>
     </assembly>
     <members>
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Get(System.Int32)">
+            <summary>
+            Consultar o cliente por ID
+            </summary>
+            <param name="id">Código do cliente</param>
+            <returns>Retorna os dados do cliente</returns>
+        </member>
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Post(System.String)">
+            <summary>
+            Incluir o cliente
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Put(System.Int32,System.String)">
+            <summary>
+            Alterar dados do cliente
+            </summary>
+            <param name="id">Código do cliente</param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Deletar o cliente por ID
+            </summary>
+            <param name="id">Código do cliente</param>
+        </member>
     </members>
 </doc>
