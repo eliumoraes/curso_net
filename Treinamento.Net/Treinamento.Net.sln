@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Net.Negocio", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Net.Dominio", "..\Treinamento.Net.Dominio\Treinamento.Net.Dominio.csproj", "{50F7D7F4-3C67-4827-B37B-89440E5E9217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Net.Repositorio", "..\Treinamento.Net.Repositorio\Treinamento.Net.Repositorio.csproj", "{9385CC89-F010-42C9-A4D7-D10DE97ABB66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinamento.Net.Repositorio", "..\Treinamento.Net.Repositorio\Treinamento.Net.Repositorio.csproj", "{9385CC89-F010-42C9-A4D7-D10DE97ABB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento.Net.ServicoExterno", "..\Treinamento.Net.ServicoExterno\Treinamento.Net.ServicoExterno.csproj", "{3432FAD2-380C-4738-80CF-8FC69D061C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9385CC89-F010-42C9-A4D7-D10DE97ABB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9385CC89-F010-42C9-A4D7-D10DE97ABB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9385CC89-F010-42C9-A4D7-D10DE97ABB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3432FAD2-380C-4738-80CF-8FC69D061C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3432FAD2-380C-4738-80CF-8FC69D061C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3432FAD2-380C-4738-80CF-8FC69D061C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3432FAD2-380C-4738-80CF-8FC69D061C73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,3 +12,5 @@ D:\_NetCore\Treinamento.Net.Negocio\obj\Debug\netcoreapp3.1\Treinamento.Net.Nego
 D:\_NetCore\Treinamento.Net.Negocio\obj\Debug\netcoreapp3.1\Treinamento.Net.Negocio.pdb
 D:\_NetCore\Treinamento.Net.Negocio\bin\Debug\netcoreapp3.1\Treinamento.Net.Repositorio.dll
 D:\_NetCore\Treinamento.Net.Negocio\bin\Debug\netcoreapp3.1\Treinamento.Net.Repositorio.pdb
+D:\_NetCore\Treinamento.Net.Negocio\bin\Debug\netcoreapp3.1\Treinamento.Net.ServicoExterno.dll
+D:\_NetCore\Treinamento.Net.Negocio\bin\Debug\netcoreapp3.1\Treinamento.Net.ServicoExterno.pdb

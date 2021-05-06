@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Data;
-using Microsoft.Extensions.Configuration;
 
 namespace Treinamento.Net.Repositorio.Conexao
 {
@@ -25,7 +25,7 @@ namespace Treinamento.Net.Repositorio.Conexao
                 //TODO: adicionar log
                 throw;
             }
-            return _db; 
+            return _db;
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Treinamento.Net.Dominio.Entidades.Parametros;
 using Treinamento.Net.Dominio.Interfaces.Negocio;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -21,6 +18,10 @@ namespace Treinamento.Net.Controllers
         }
 
         // GET: api/<ClienteController>
+        /// <summary>
+        /// Consultar lista de clientes
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -50,12 +51,26 @@ namespace Treinamento.Net.Controllers
 
         // POST api/<ClienteController>
         /// <summary>
-        /// Incluir o cliente
+        /// Incluir cliente
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="cliente"></param>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] ClienteRequest cliente)
         {
+            bool clienteCadastrado = _clienteNegocio.Incluir(cliente);
+            if (clienteCadastrado)
+            {
+                return Ok(new
+                {
+                    sucesso = true,
+                    mensagem = "Cliente cadastrado com sucesso."
+                });
+            }
+            return NotFound(new
+            {
+                sucesso = false,
+                mensagem = "Cliente não cadastrado."
+            });
         }
 
         // PUT api/<ClienteController>/5
@@ -63,10 +78,27 @@ namespace Treinamento.Net.Controllers
         /// Alterar dados do cliente
         /// </summary>
         /// <param name="id">Código do cliente</param>
-        /// <param name="value"></param>
+        /// <param name="nomeDoCliente">Nome do cliente</param>
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] string nomeDoCliente)
         {
+            bool clienteAlterado = _clienteNegocio.Alterar(id, nomeDoCliente);
+
+            if (clienteAlterado)
+            {
+                var cliente = _clienteNegocio.Consultar(id);
+                return Ok(new
+                {
+                    sucesso = clienteAlterado,
+                    mensagem = "Cliente alterado.",
+                    data = cliente
+                });
+            }
+            return NotFound(new
+            {
+                sucesso = false,
+                mensagem = "Cliente não alterado."
+            });
         }
 
         // DELETE api/<ClienteController>/5

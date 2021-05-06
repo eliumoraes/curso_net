@@ -60,3 +60,13 @@ D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\
 D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Treinamento.Net.Repositorio.dll
 D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Treinamento.Net.Repositorio.pdb
 D:\_NetCore\Treinamento.Net\obj\Debug\netcoreapp3.1\Treinamento.Net.MvcApplicationPartsAssemblyInfo.cs
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Newtonsoft.Json.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Treinamento.Net.ServicoExterno.dll
+D:\_NetCore\Treinamento.Net\bin\Debug\netcoreapp3.1\netcoreapp3.1\netcoreapp3.1\Treinamento.Net.ServicoExterno.pdb

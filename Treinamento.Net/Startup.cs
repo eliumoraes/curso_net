@@ -13,6 +13,7 @@ using Treinamento.Net.Dominio.Interfaces.Repositorio;
 using Treinamento.Net.Negocio;
 using Treinamento.Net.Repositorio.Conexao;
 using Treinamento.Net.Repositorio.Repositorios;
+using Treinamento.Net.ServicoExterno.ViaCep;
 
 namespace Treinamento.Net
 {
@@ -36,8 +37,11 @@ namespace Treinamento.Net
 
             services.AddRouting(options => options.LowercaseUrls = true); //Deixa as URL's com letras minúsculas
 
+            services.AddHttpClient();
+
             //Menor trafego de dados
             services.Configure<GzipCompressionProviderOptions>(options => options.Level = CompressionLevel.Optimal);
+            
             services.AddResponseCompression(options =>
             {
                 options.Providers.Add<GzipCompressionProvider>();
@@ -88,11 +92,15 @@ namespace Treinamento.Net
         {
             #region Negocio
             services.AddScoped<IClienteNegocio, ClienteNegocio>();
+            services.AddScoped<ICepNegocio, CepNegocio>();
             #endregion Negocio
+
+            #region Servico Externo
+            services.AddScoped<IViaCep, ViaCep>();
+            #endregion Servico Externo
 
             #region Repositorio
             services.AddScoped<IConexaoSqlServer, ConexaoSqlServer>();
-
             services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
             #endregion Repositorio
         }
@@ -119,11 +127,11 @@ namespace Treinamento.Net
                         }
                     });
 
-                string caminhoAplicacao = 
+                string caminhoAplicacao =
                     PlatformServices.Default.Application.ApplicationBasePath;
-                string nomeAplicacao = 
+                string nomeAplicacao =
                     PlatformServices.Default.Application.ApplicationName;
-                string caminhoXmlDoc = 
+                string caminhoXmlDoc =
                     Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
 
                 c.IncludeXmlComments(caminhoXmlDoc);

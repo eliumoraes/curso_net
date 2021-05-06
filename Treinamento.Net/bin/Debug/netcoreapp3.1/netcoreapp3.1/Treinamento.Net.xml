@@ -4,6 +4,12 @@
         <name>Treinamento.Net</name>
     </assembly>
     <members>
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Get">
+            <summary>
+            Consultar lista de clientes
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Treinamento.Net.Controllers.ClienteController.Get(System.Int32)">
             <summary>
             Consultar o cliente por ID
@@ -11,18 +17,18 @@
             <param name="id">Código do cliente</param>
             <returns>Retorna os dados do cliente</returns>
         </member>
-        <member name="M:Treinamento.Net.Controllers.ClienteController.Post(System.String)">
+        <member name="M:Treinamento.Net.Controllers.ClienteController.Post(Treinamento.Net.Dominio.Entidades.Parametros.ClienteRequest)">
             <summary>
-            Incluir o cliente
+            Incluir cliente
             </summary>
-            <param name="value"></param>
+            <param name="cliente"></param>
         </member>
         <member name="M:Treinamento.Net.Controllers.ClienteController.Put(System.Int32,System.String)">
             <summary>
             Alterar dados do cliente
             </summary>
             <param name="id">Código do cliente</param>
-            <param name="value"></param>
+            <param name="nomeDoCliente">Nome do cliente</param>
         </member>
         <member name="M:Treinamento.Net.Controllers.ClienteController.Delete(System.Int32)">
             <summary>
